@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<title>  </title>
+	<link rel="stylesheet" type="text/css" href="../../css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/media.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.1.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../../js/respond.min.js"></script>
+	<script type="text/javascript" src="../../js/swiper.min.js"></script>
+</head>
+
+<body>
+<div id="skipNav">
+	<a href="#contents">본문 바로가기</a>
+</div>
+
+<div id="wrap">
+	<!-- header -->
+	<div id="header" class="sample_header"></div>
+	<!-- //header -->
+	
+	<!-- container -->
+	<div id="container">
+		<!-- contents -->
+		<div id="contents" class="not_snb">
+			<!-- conHead -->
+			<div class="conHead ver2">
+				<h2 class="title">덕성기술학원</h2>
+				<p class="summary">덕성기술학원 회원가입은 무료이며, 가입 후에는 다양한 정보 및 콘텐츠를 누릴 수 있습니다.</p>
+			</div>
+			<!-- //conHead -->
+			
+			<!-- conBody -->
+			<div class="conBody">
+				<!-- wrapper -->
+				<div class="wrapper">
+					<!-- joinStep -->
+					<div class="joinStep">
+						<div class="steps"><img src="../../images/sub/join_step01_off.png" alt="STEP 01 약관동의"></div>
+						<div class="steps"><img src="../../images/sub/join_step02.png" alt="STEP 02 정보입력"></div>
+					</div>
+					<!-- //joinStep -->
+
+					<h3 class="s_title">개인 회원정보 입력</h3>
+
+					<!-- sheetWrite -->
+					<div class="sheetWrite responsive_sheet_write">
+						<table summary="개인정보수정">
+						<colgroup>
+							<col class="responsive_width">
+							<col>
+						</colgroup>
+							<tr>
+								<th scope="row">아이디 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">아이디 <span class="required">*</span></span>
+									<input type="text" name="" title="아이디" style="width:441px">
+									<button type="button" class="btn_typeB ver2 btnLayer" data-layer="layer_id_over_check"><span>중복 확인</span></button>
+									<span class="in_guide">※ 4 ~ 16자의 영소문자 혹은 숫자</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">비밀번호 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">비밀번호 <span class="required">*</span></span>
+									<input type="password" name="" title="비밀번호" style="width:441px">
+									<span class="in_guide">※ 6~16자 이내 영문자, 숫자의 조합으로 이루어져야 합니다.</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">비밀번호 확인 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">비밀번호 확인 <span class="required">*</span></span>
+									<input type="password" name="" title="비밀번호" style="width:441px">
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">성명</th>
+								<td><span class="hidden_th">성명</span>조은지</td>
+							</tr>
+							<tr>
+								<th scope="row">생년월일</th>
+								<td>
+									<div class="multi_input_text">
+										<span>
+											<select name="" title="" style="width:125px;">
+												<option value="">선택</option>
+											</select>
+											년
+										</span>
+										<span>
+											<select name="" title="" style="width:125px;">
+												<option value="">선택</option>
+											</select>
+											월
+										</span>
+										<span>
+											<select name="" title="" style="width:125px;">
+												<option value="">선택</option>
+											</select>
+											일
+										</span>
+										<span>
+											<label>
+												<input type="checkbox" name="" title="음력">
+												음력
+											</label>
+										</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">이메일 <span class="required">*</span></th>
+								<td><span class="hidden_th">이메일 <span class="required">*</span></span><input type="text" name="" title="이메일" style="width:441px"></td>
+							</tr>
+							<tr>
+								<th scope="row">사진입력</th>
+								<td>
+									<span class="hidden_th">사진입력</span>
+									<input type="file" name="" title="사진입력" style="width:438px">
+									<span class="in_guide">※ 구직정보 등록시 참조합니다. 최적 103*132 픽셀</span>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">유선전화 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">유선전화 <span class="required">*</span></span>
+									<!-- input_tel_type -->
+									<div class="input_tel_type">
+										<span><input type="text" name="" title="유선전화 앞자리"></span>
+										<em>-</em>
+										<span><input type="text" name="" title="유선전화 중간자리"></span>
+										<em>-</em>
+										<span><input type="text" name="" title="유선전화 뒷자리"></span>
+									</div>
+									<!-- //input_tel_type -->
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">휴대폰 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">휴대폰 <span class="required">*</span></span>
+									<!-- input_tel_type -->
+									<div class="input_tel_type">
+										<span><input type="text" name="" title="휴대폰 앞자리"></span>
+										<em>-</em>
+										<span><input type="text" name="" title="휴대폰 중간자리"></span>
+										<em>-</em>
+										<span><input type="text" name="" title="휴대폰 뒷자리"></span>
+									</div>
+									<!-- //input_tel_type -->
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">우편번호 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">우편번호 <span class="required">*</span></span>
+									<!-- multi_input_text -->
+									<div class="multi_input_text">
+										<span><input type="text" name="" title="우편번호 앞자리" style="width:132px">&nbsp;</span>
+										<span><input type="text" name="" title="우편번호 뒷자리" style="width:131px">&nbsp;</span>
+										<span><button type="button" class="btn_typeB ver2"><span>우편변호 찾기</span></button></span>
+									</div>
+									<!-- //multi_input_text -->
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">주소 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">주소 <span class="required">*</span></span>
+									<input type="text" name="" title="주소" style="width:100%">
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">출신학교</th>
+								<td>
+									<span class="hidden_th">출신학교</span>
+									<!-- multi_input_text -->
+									<div class="multi_input_text">
+										<span><input type="text" name="" title="출신학교" style="width:288px"></span>
+										<span><button type="button" class="btn_typeB ver2 btnLayer" data-layer="layer_college_search"><span>학교 검색</span></button></span>
+									</div>
+									<!-- //multi_input_text -->
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">관심분야 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">관심분야 <span class="required">*</span></span>
+									<select name="" title="관심분야" style="width:160px">
+										<option value="">선택</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">전공학과</th>
+								<td>
+									<span class="hidden_th">전공학과</span>
+									<!-- multi_input_text -->
+									<div class="multi_input_text">
+										<span><input type="text" name="" title="전공학과" style="width:441px"></span>
+										<span>
+											<div class="radioWrap">
+												<label>
+													<input type="radio" name="" title="재학중">
+													재학중
+												</label>
+												<label>
+													<input type="radio" name="" title="졸업">
+													졸업
+												</label>
+											</div>
+										</span>
+									</div>
+									<!-- //multi_input_text -->
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">정보수신동의 <span class="required">*</span></th>
+								<td>
+									<span class="hidden_th">정보수신동의 <span class="required">*</span></span>
+									<div class="radioWrap">
+										<label>
+											<input type="radio" name="" title="수신">
+											수신
+										</label>
+										<label>
+											<input type="radio" name="" title="거부">
+											거부
+										</label>
+										<span class="in_guide">※ 취업관련정보를 제공합니다.</span>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<!-- //sheetWrite -->
+
+					<div class="commonGuide">
+						<em>*</em> 는 필수입력사항입니다.
+					</div>
+					
+					<!-- btnWrap -->
+					<div class="btnWrap size_fix">
+						<div class="btnRight">
+							<button type="submit" class="btn_typeB ver4 btnLayer" data-layer="layer_join_complete"><span>가입하기</span></button>
+							<button type="button" class="btn_typeB ver2"><span>취소</span></button>
+						</div>
+					</div>
+					<!-- //btnWrap -->
+
+					<!-- Layer -->
+					<!-- 회원가입 완료 -->
+					<div id="layer_join_complete" class="commonLayer basic_layer">
+						<!-- layerHead -->
+						<div class="layerHead">
+							<h2>회원가입 완료</h2>
+							<a href="#" class="layerClose" data-layer="layer_join_complete"><img src="../../images/layer/close.png" alt="닫기"></a>
+						</div>
+						<!-- //layerHead -->
+						
+						<!-- layerBody -->
+						<div class="layerBody">
+							<!-- layer_icon -->
+							<div class="layer_icon">
+								<img src="../../images/layer/icon_ds.png" alt="DS">
+							</div>
+							<!-- //layer_icon -->
+
+							<!-- layer_txtBox -->
+							<div class="layer_txtBox">
+								홍길동님!<br />
+								<em>덕성기술학원의 회원</em>이 되신것을<br />
+								진심으로 축하드립니다.
+							</div>
+							<!-- //layer_txtBox -->
+							
+							<!-- btnWrap -->
+							<div class="btnWrap">
+								<div class="btnCenter">
+									<button type="button" class="btn_typeB ver2" onclick="layer_close('layer_join_complete')"><span>확인</span></button>
+								</div>
+							</div>
+							<!-- //btnWrap -->
+						</div>
+						<!-- //layerBody -->
+					</div>
+					<!-- //회원가입 완료 -->
+
+					<!-- 아이디 중복확인 -->
+					<div id="layer_id_over_check" class="commonLayer basic_layer">
+						<!-- layerHead -->
+						<div class="layerHead">
+							<h2>아이디 중복확인</h2>
+							<a href="#" class="layerClose" data-layer="layer_id_over_check"><img src="../../images/layer/close.png" alt="닫기"></a>
+						</div>
+						<!-- //layerHead -->
+						
+						<!-- layerBody -->
+						<div class="layerBody">
+							<!-- layer_txtBox -->
+							<div class="layer_txtBox">
+								신청하신 아이디는<br />
+								등록되어 있지 않으므로 <em>사용가능</em>합니다.
+							</div>
+							<!-- //layer_txtBox -->
+							
+							<!-- btnWrap -->
+							<div class="btnWrap">
+								<div class="btnCenter">
+									<button type="button" class="btn_typeB ver2" onclick="layer_close('layer_id_over_check')"><span>확인</span></button>
+								</div>
+							</div>
+							<!-- //btnWrap -->
+						</div>
+						<!-- //layerBody -->
+					</div>
+					<!-- //아이디 중복확인 -->
+
+					<!-- 출신학교 검색 -->
+					<div id="layer_college_search" class="commonLayer basic_layer">
+						<!-- layerHead -->
+						<div class="layerHead">
+							<h2>출신학교 검색</h2>
+							<a href="#" class="layerClose" data-layer="layer_college_search"><img src="../../images/layer/close.png" alt="닫기"></a>
+						</div>
+						<!-- //layerHead -->
+						
+						<!-- layerBody -->
+						<div class="layerBody">
+							<!-- input_search_box -->
+							<div class="input_search_box layer_grayBox">
+								<div class="displayTable">
+									<div class="tr">
+										<div class="td th">학교명 입력</div>
+										<div class="td"><input type="text" name="" title=""></div>
+										<div class="td btn">
+											<button type="submit" class="btn_typeB ver2 btnLayer" data-layer="layer_college_search02"><span>검색</span></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- //input_search_box -->
+							
+							<div class="layer_txtBox ver2">
+								학교명을 입력후 검색버튼을 누르세요.<br />
+								출신 학교가 없으신 경우 기타학교를 누르세요.<br /><br />
+								<a href="#">[93999000] 기타학교</a>
+							</div>
+						</div>
+						<!-- //layerBody -->
+					</div>
+					<!-- //출신학교 검색 -->
+
+					<!-- 출신학교 검색 -->
+					<div id="layer_college_search02" class="commonLayer basic_layer">
+						<!-- layerHead -->
+						<div class="layerHead">
+							<h2>출신학교 검색</h2>
+							<a href="#" class="layerClose" data-layer="layer_college_search02"><img src="../../images/layer/close.png" alt="닫기"></a>
+						</div>
+						<!-- //layerHead -->
+						
+						<!-- layerBody -->
+						<div class="layerBody">
+							<!-- layer_search_list -->
+							<div class="layer_search_list">
+								<ul>
+									<li><a href="#">[63351000] 남서울대학교</a></li>
+									<li><a href="#">[73253000] 동서울대학</a></li>
+									<li><a href="#">[61590000] 서울과학기술대학교(서울산업대학교)</a></li>
+									<li><a href="#">[73487000] 서울보건대학</a></li>
+									<li><a href="#">[63351000] 남서울대학교</a></li>
+									<li><a href="#">[73253000] 동서울대학</a></li>
+									<li><a href="#">[61590000] 서울과학기술대학교(서울산업대학교)</a></li>
+									<li><a href="#">[73487000] 서울보건대학</a></li>
+								</ul>
+							</div>
+							<!-- //layer_search_list -->
+
+							<div class="layer_txtBox ver2">
+								총 <em>15</em>개의 학교가검색되었습니다.<br />
+								위의 목록 중에서 자신의 학교를 선택하세요.
+							</div>
+
+							<!-- btnWrap -->
+							<div class="btnWrap">
+								<div class="btnCenter">
+									<button type="button" class="btn_typeB ver2" onclick="layer_close('layer_college_search02')"><span>되돌아가기</span></button>
+								</div>
+							</div>
+							<!-- //btnWrap -->
+						</div>
+						<!-- //layerBody -->
+					</div>
+					<!-- //출신학교 검색 -->
+					<!-- //Layer -->
+				</div>
+				<!-- //wrapper -->
+			</div>
+			<!-- //conBody -->
+		</div>
+		<!-- //contents -->
+	</div>
+	<!-- //container -->
+
+	<!-- footer -->
+	<div id="footer" class="sample_footer"></div>
+	<!-- //footer -->
+</div>
+
+<script type="text/javascript" src="../../js/common_ducksung.js"></script>
+</body>
+</html>

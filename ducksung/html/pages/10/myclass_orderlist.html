@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<title>  </title>
+	<link rel="stylesheet" type="text/css" href="../../css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/media.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.1.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../../js/respond.min.js"></script>
+	<script type="text/javascript" src="../../js/swiper.min.js"></script>
+</head>
+
+<body>
+<div id="skipNav">
+	<a href="#contents">본문 바로가기</a>
+</div>
+
+<div id="wrap">
+	<!-- header -->
+	<div id="header" class="sample_header"></div>
+	<!-- //header -->
+	
+	<!-- container -->
+	<div id="container">
+		<!-- contents -->
+		<div id="contents">
+			<!-- conHead -->
+			<div class="conHead ver2">
+				<h2 class="title">나의 강의실</h2>
+				<p class="summary">나의 강의실에서 학습내용을 체크하실 수 있습니다.</p>
+				<!-- snb -->
+				<div class="snb">
+					<div class="wrapper">
+						<!-- nav -->
+						<div class="nav swiper-container">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide"><a href="#">수강중 강의목록</a></li>
+								<li class="swiper-slide"><a href="#">만료된 강의목록</a></li>
+								<li class="active swiper-slide"><a href="#">학습진도관리</a></li>
+								<li class="swiper-slide"><a href="#">결제내역</a></li>
+								<li class="swiper-slide"><a href="#">수강생Q&amp;A</a></li>
+								<li class="swiper-slide"><a href="#">생방송강의</a></li>
+							</ul>
+							<div class="swiper-scrollbar"></div>
+						</div>
+						<!-- //nav -->
+					</div>
+					
+					<!-- controller -->
+					<span class="controller">
+						<button type="button" class="swiper-button-prev">이전</button>
+						<button type="button" class="swiper-button-next">다음</button>	
+					</span>
+					<!-- //controller -->
+				</div>
+				<!-- //snb -->
+			</div>
+			<!-- //conHead -->
+			
+			<!-- conBody -->
+			<div class="conBody">
+				<!-- wrapper -->
+				<div class="wrapper">
+					<!-- multi_section -->
+					<div class="multi_section ver2">
+						<!-- section -->
+						<div class="section">
+							<h3 class="s_title">온라인강의 신청내역</h3>
+
+							<!-- sheetList -->
+							<div class="sheetInContents inherit_sheet responsive_sheet">
+								<table summary="온라인강의 신청내역">
+									<thead>
+										<tr>
+											<th scope="col">주문번호</th>
+											<th scope="col">과정명</th>
+											<th scope="col">결제일</th>
+											<th scope="col">결제금액</th>
+											<th scope="col">결제방법</th>
+											<th scope="col">결제상태</th>
+											<th scope="col">카드영수증</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><span class="hidden_th">주문번호</span><a href="#">200912040006</a></td>
+											<td class="name"><span class="hidden_th">과정명</span><a href="#" class="btnLayer" data-layer="layer_order_detail">조경기능사 필기(08년+09년)</a></td>
+											<td><span class="hidden_th">결제일</span>2009-12-04</td>
+											<td><span class="hidden_th">결제금액</span><span class="point_text">212,500원</span></td>
+											<td><span class="hidden_th">결제방법</span>무통장 입금</td>
+											<td><span class="hidden_th">결제상태</span>입금확인</td>
+											<td>
+												<span class="hidden_th">카드영수증</span>
+												<!-- btns -->
+												<div class="btns">
+													<a href="#" class="btn_typeB ver4"><span>출력</span></a>
+												</div>
+												<!-- //btns -->
+											</td>
+										</tr>
+										<tr>
+											<td><span class="hidden_th">주문번호</span><a href="#">200912040005</a></td>
+											<td class="name"><span class="hidden_th">과정명</span><a href="#">기계CAD (2D + 3D) 2개월 과정</a></td>
+											<td><span class="hidden_th">결제일</span>2009-12-04</td>
+											<td><span class="hidden_th">결제금액</span><span class="point_text">212,500원</span></td>
+											<td><span class="hidden_th">결제방법</span>카드결제</td>
+											<td><span class="hidden_th">결제상태</span>입금확인</td>
+											<td>
+												<span class="hidden_th">카드영수증</span>
+												<!-- btns -->
+												<div class="btns">
+													<a href="#" class="btn_typeB"><span>출력</span></a>
+												</div>
+												<!-- //btns -->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //sheetList -->
+							
+							<!-- commonGuide -->
+							<div class="commonGuide">
+								※ 카드영수증은 카드로 결제가 완료된 경우 출력할 수 있습니다. 또는 <strong>이니시스 홈페이지</strong>에서 출력할 수 있습니다.<br />
+								※ 과정명을 누르시면 상세내역을 확인할 수 있습니다.<br />
+								<em>※ 주문번호를 누르시면 미결제 내역이 삭제가 됩니다.</em>
+							</div>
+							<!-- //commonGuide -->
+						</div>
+						<!-- //section -->
+
+						<!-- section -->
+						<div class="section">
+							<h3 class="s_title">학원직강 신청내역</h3>
+
+							<!-- sheetList -->
+							<div class="sheetInContents inherit_sheet responsive_sheet">
+								<table summary="학원직강 신청내역">
+									<thead>
+										<tr>
+											<th scope="col">주문번호</th>
+											<th scope="col">과정명</th>
+											<th scope="col">결제일</th>
+											<th scope="col">결제금액</th>
+											<th scope="col">결제방법</th>
+											<th scope="col">결제상태</th>
+											<th scope="col">카드영수증</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><span class="hidden_th">주문번호</span><a href="#">200912040006</a></td>
+											<td class="name"><span class="hidden_th">과정명</span><a href="#">조경기능사 필기(08년+09년)</a></td>
+											<td><span class="hidden_th">결제일</span>2009-12-04</td>
+											<td><span class="hidden_th">결제금액</span><span class="point_text">212,500원</span></td>
+											<td><span class="hidden_th">결제방법</span>무통장 입금</td>
+											<td><span class="hidden_th">결제상태</span>입금확인</td>
+											<td>
+												<span class="hidden_th">카드영수증</span>
+												<!-- btns -->
+												<div class="btns">
+													<a href="#" class="btn_typeB ver4"><span>출력</span></a>
+												</div>
+												<!-- //btns -->
+											</td>
+										</tr>
+										<tr>
+											<td><span class="hidden_th">주문번호</span><a href="#">200912040005</a></td>
+											<td class="name"><span class="hidden_th">과정명</span><a href="#">기계CAD (2D + 3D) 2개월 과정</a></td>
+											<td><span class="hidden_th">결제일</span>2009-12-04</td>
+											<td><span class="hidden_th">결제금액</span><span class="point_text">212,500원</span></td>
+											<td><span class="hidden_th">결제방법</span>카드결제</td>
+											<td><span class="hidden_th">결제상태</span>입금확인</td>
+											<td>
+												<span class="hidden_th">카드영수증</span>
+												<!-- btns -->
+												<div class="btns">
+													<a href="#" class="btn_typeB"><span>출력</span></a>
+												</div>
+												<!-- //btns -->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //sheetList -->
+							
+							<!-- commonGuide -->
+							<div class="commonGuide">
+								※ 카드영수증은 카드로 결제가 완료된 경우 출력할 수 있습니다. 또는 <strong>이니시스 홈페이지</strong>에서 출력할 수 있습니다.<br />
+								※ 과정명을 누르시면 상세내역을 확인할 수 있습니다.<br />
+								<em>※ 주문번호를 누르시면 미결제 내역이 삭제가 됩니다.</em>
+							</div>
+							<!-- //commonGuide -->
+						</div>
+						<!-- //section -->
+
+						<!-- section -->
+						<div class="section">
+							<h3 class="s_title">교재 신청내역</h3>
+
+							<!-- sheetList -->
+							<div class="sheetInContents inherit_sheet responsive_sheet">
+								<table summary="교재 신청내역">
+									<thead>
+										<tr>
+											<th scope="col">송장번호</th>
+											<th scope="col">교제명</th>
+											<th scope="col">주문일</th>
+											<th scope="col">결제금액</th>
+											<th scope="col">배송상태</th>
+											<th scope="col">배송조회</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><span class="hidden_th">송장번호</span><a href="#">200912040006</a></td>
+											<td class="name" style="width:40%"><span class="hidden_th">교제명</span><a href="#">조경기능사필기</a></td>
+											<td><span class="hidden_th">주문일</span>2009-12-04</td>
+											<td><span class="hidden_th">결제금액</span><span class="point_text">212,500원</span></td>
+											<td><span class="hidden_th">배송상태</span>배송준비</td>
+											<td>
+												<span class="hidden_th">배송조회</span>
+												<!-- btns -->
+												<div class="btns">
+													<a href="#" class="btn_typeB ver4"><span>조회</span></a>
+												</div>
+												<!-- //btns -->
+											</td>
+										</tr>
+										<tr>
+											<td><span class="hidden_th">송장번호</span><a href="#">200912040006</a></td>
+											<td class="name"><span class="hidden_th">교제명</span><a href="#">조경기능사 문제해설</a></td>
+											<td><span class="hidden_th">주문일</span>2009-12-04</td>
+											<td><span class="hidden_th">결제금액</span><span class="point_text">212,500원</span></td>
+											<td><span class="hidden_th">배송상태</span>배송준비</td>
+											<td>
+												<span class="hidden_th">배송조회</span>
+												<!-- btns -->
+												<div class="btns">
+													<a href="#" class="btn_typeB ver4"><span>조회</span></a>
+												</div>
+												<!-- //btns -->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- //sheetList -->
+							
+							<!-- commonGuide -->
+							<div class="commonGuide">
+								※ 서울덕성기술학원은 한진택배 에서 배송이 이루어 집니다. 배송조회는 위의 조회 버튼을 누르시거나 <strong>한진택배 홈페이지</strong>
+								에서도 조회할 수 있습니다.
+							</div>
+							<!-- //commonGuide -->
+
+							<!-- pagebox01 -->
+							<div class="pagebox01">
+								<span class="img"><img src="../..//images/icon/icon_prv02.gif" alt="처음페이지"></span>
+								<span class="img"><img src="../../images/icon/icon_prv.gif" alt="이전 10 페이지"></span>
+								<span class="selected" title="1 페이지">1</span>
+								<span title="2 페이지">2</span>
+								<span class="img"><img src="../../images/icon/icon_next.gif" alt="다음 10 페이지"></span>
+								<span class="img"><img src="../../images/icon/icon_next02.gif" alt="마지막페이지"></span>
+							</div>
+							<!-- //pagebox01 -->
+						</div>
+						<!-- //section -->
+					</div>
+					<!-- //multi_section -->
+				</div>
+				<!-- //wrapper -->
+			</div>
+			<!-- //conBody -->
+		</div>
+		<!-- //contents -->
+	</div>
+	<!-- //container -->
+
+	<!-- footer -->
+	<div id="footer" class="sample_footer"></div>
+	<!-- //footer -->
+</div>
+
+
+<!-- Layer -->
+<div id="layer_order_detail" class="commonLayer custom_layer">
+	<!-- layerHead -->
+	<div class="layerHead bg_ver5">
+		<h2>결제 상세내역</h2>
+		<a href="#" class="layerClose" data-layer="layer_order_detail"><img src="../../images/layer/close.png" alt="닫기"></a>
+	</div>
+	<!-- //layerHead -->
+	
+	<!-- layerBody -->
+	<div class="layerBody">
+		<!-- multi_section -->
+		<div class="multi_section">
+			<!-- section -->
+			<div class="section">
+				<h3 class="s_in_title">결제상세내역(주문번호 : 200912040006)</h3>
+				<!-- sheetWrite -->
+				<div class="sheetWrite responsive_sheet_view">
+					<table summary="결제상세내역">
+						<colgroup>
+							<col class="responsive_width">
+							<col>
+							<col class="responsive_width">
+							<col>
+						</colgroup>
+						<tr>
+							<th scope="row">결제방법</th>
+							<td><span class="hidden_th">결제방법</span><strong class="point_txt">입금확인</strong></td>
+							<th scope="row">결제결과</th>
+							<td><span class="hidden_th">결제결과</span>결제결과</td>
+						</tr>
+						<tr>
+							<th scope="row">결제상태</th>
+							<td colspan="3"><span class="hidden_th">결제상태</span>정상건</td>
+						</tr>
+					</table>
+				</div>
+				<!-- //sheetWrite -->
+			</div>
+			<!-- //section -->
+			
+			<!-- section -->
+			<div class="section">
+				<h3 class="s_in_title">주문자</h3>
+				<!-- sheetWrite -->
+				<div class="sheetWrite responsive_sheet_view">
+					<table summary="주문자">
+						<colgroup>
+							<col class="responsive_width">
+							<col>
+							<col class="responsive_width">
+							<col>
+						</colgroup>
+						<tr>
+							<th scope="row">이름</th>
+							<td><span class="hidden_th">이름</span>서울덕성기술학원</td>
+							<th scope="row">회원ID</th>
+							<td><span class="hidden_th">회원ID</span>ducksung</td>
+						</tr>
+						<tr>
+							<th scope="row">핸드폰번호</th>
+							<td><span class="hidden_th">핸드폰번호</span>010-4823-8123</td>
+							<th scope="row">이메일</th>
+							<td><span class="hidden_th">이메일</span>semtle2@paran.com</td>
+						</tr>
+					</table>
+				</div>
+				<!-- //sheetWrite -->
+			</div>
+			<!-- //section -->
+
+			<!-- section -->
+			<div class="section">
+				<h3 class="s_in_title">교재배송정보</h3>
+				<!-- sheetWrite -->
+				<div class="sheetWrite responsive_sheet_view">
+					<table summary="교재배송정보">
+						<colgroup>
+							<col class="responsive_width">
+							<col>
+						</colgroup>
+						<tr>
+							<th scope="row">수령자</th>
+							<td><span class="hidden_th">수령자</span>덕성학원</td>
+						</tr>
+						<tr>
+							<th scope="row">주소</th>
+							<td class="long_contents"><span class="hidden_th">주소</span>서울강남구개포동 서울강남우체국 1234</td>
+						</tr>
+						<tr>
+							<th scope="row">전화번호</th>
+							<td><span class="hidden_th">전화번호</span>02-2675-4000</td>
+						</tr>
+						<tr>
+							<th scope="row">전하실말씀</th>
+							<td class="long_contents"><span class="hidden_th">전하실말씀</span>부재시 경비실에 맡겨주세요.</td>
+						</tr>
+					</table>
+				</div>
+				<!-- //sheetWrite -->
+			</div>
+			<!-- //section -->
+
+			<!-- section -->
+			<div class="section">
+				<h3 class="s_in_title">신청내역</h3>
+				<div class="sheetList ver_th_bold responsive_sheet">
+					<table summary="신청내역">
+						<thead>
+							<tr>
+								<th scope="col">과목명</th>
+								<th scope="col">수강료</th>
+								<th scope="col">할인금액</th>
+								<th scope="col">사용마일리지</th>
+								<th scope="col">결제금액</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="hidden_th">과목명</span>조경일반학</td>
+								<td><span class="hidden_th">수강료</span>30,000</td>
+								<td><span class="hidden_th">할인금액</span>6,137</td>
+								<td><span class="hidden_th">사용마일리지</span>0</td>
+								<td><span class="hidden_th">결제금액</span>23,863</td>
+							</tr>
+							<tr>
+								<td><span class="hidden_th">과목명</span>조경재료</td>
+								<td><span class="hidden_th">수강료</span>30,000</td>
+								<td><span class="hidden_th">할인금액</span>6,137</td>
+								<td><span class="hidden_th">사용마일리지</span>0</td>
+								<td><span class="hidden_th">결제금액</span>23,863</td>
+							</tr>
+							<tr>
+								<td><span class="hidden_th">과목명</span>조경시공 및 관리</td>
+								<td><span class="hidden_th">수강료</span>30,000</td>
+								<td><span class="hidden_th">할인금액</span>6,137</td>
+								<td><span class="hidden_th">사용마일리지</span>0</td>
+								<td><span class="hidden_th">결제금액</span>23,863</td>
+							</tr>
+							<tr>
+								<td><span class="hidden_th">과목명</span>문제풀이</td>
+								<td><span class="hidden_th">수강료</span>30,000</td>
+								<td><span class="hidden_th">할인금액</span>6,137</td>
+								<td><span class="hidden_th">사용마일리지</span>0</td>
+								<td><span class="hidden_th">결제금액</span>23,863</td>
+							</tr>
+							<tr>
+								<td><span class="hidden_th">과목명</span>조경기능사 필기(09년)</td>
+								<td><span class="hidden_th">수강료</span>100,000</td>
+								<td><span class="hidden_th">할인금액</span>6,137</td>
+								<td><span class="hidden_th">사용마일리지</span>0</td>
+								<td><span class="hidden_th">결제금액</span>23,863</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th>합계</th>
+								<td><span class="hidden_th">수강료</span>270,000</td>
+								<td><span class="hidden_th">할인금액</span>6,137</td>
+								<td><span class="hidden_th">사용마일리지</span>0</td>
+								<td><span class="hidden_th">결제금액</span>23,863</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+			<!-- //section -->
+		</div>
+		<!-- //multi_section -->
+
+		<!-- btnWrap -->
+		<div class="btnWrap">
+			<div class="btnCenter">
+				<button type="button" class="btn_typeB ver2" onclick="layer_close('layer_order_detail')"><span>닫기</span></button>
+			</div>
+		</div>
+		<!-- //btnWrap -->
+	</div>
+	<!-- //layerBody -->
+</div>
+<!-- //Layer -->
+
+<script type="text/javascript" src="../../js/common_ducksung.js"></script>
+</body>
+</html>
